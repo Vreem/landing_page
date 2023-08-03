@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -49,6 +49,7 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 100px;
+    height: 34vh;
 }
 
 .textcontainer {
@@ -70,6 +71,7 @@ button {
     width: 100px;
     height: auto;
     background-color: #3882F6;
+    border-color:#1F2937;
     color: #F9FAF8;
     font-weight: 800;
     border-radius: 5px;
@@ -90,17 +92,23 @@ h2 {
 }
 
 /*INFORMATION*/
-/*IMAGES*/
+/*IMAGES AND TEXT*/
 
 .imagecontainer {
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    height: 30vh;
 }
 
-.owl, .peacock, .eagle, .osprey {
-    width:150px;
+.imageandtext {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.owl, .eagle, .peacock, .osprey {
+    width: 150px;
     height: 150px;
 }
 
@@ -108,3 +116,66 @@ img {
     border: 3px solid #3882F6;
     border-radius: 12px;
 }
+
+/*IMAGES AND TEXT */
+/*QUOTE SECTION*/
+
+.quotesectioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 34vh;
+}
+
+.inspiringquote {
+    display: flex;
+    width: 370px;
+}
+
+.thor {
+    display: flex;
+}
+
+/*QUOTE SECTION*/
+/*CALL TO ACTION*/
+
+.callcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.callbluebox {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 60px;
+    color: #F9FAF8;
+}
+
+.calltext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 50px 5px 50px;
+}
+
+.callbutton {
+    margin: 20px;
+    margin-top: 50px;
+    border-color:#F9FAF8;
+    height: 30px;
+}
+
+/*CALL TO ACTION*/
+/*FOOTER*/
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+    background-color:#1F2937;
+    color:#F9FAF8;
+}
+
+/*FOOTER*/
